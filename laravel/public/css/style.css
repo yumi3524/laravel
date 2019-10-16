@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(251, 244, 185);
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand-menu {
+    color: pink;
+    font-size: 32px;
+    opacity: 0.5;
+}
+
+.header-wrap {
+    position: absolute;
+    /* width: auto; */
+    padding: 0;
+    /* height: 20%; */
+    /* background-color: #000000; */
+}
+
+.header-menu {
+    width: auto;
+    position: absolute;
+    /* height: 20%; */
+    /* background-color: #383838; */
+    opacity: 0.2;
+}
+
+.contentBox-1 {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    padding: 145px 245px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.contentBox-1 p {
+    font-family: cursive;
+    color: #ccc;
+    font-size: 50px;
+}
+
+.contentBox-1 a {
+    font-family: cursive;
+    color: #ccc;
+    font-size: 25px;
+    float: left;
+    letter-spacing: 3px;
+}
