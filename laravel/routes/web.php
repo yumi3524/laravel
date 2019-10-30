@@ -22,3 +22,4 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function()
 {
     Route::resource('posts', 'Admin\PostsController');
 });
+Route::get('pdf','PDFController@index');

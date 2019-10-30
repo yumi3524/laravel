@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(251, 244, 185);
     width: auto;
     padding: 0;
     margin: 0;
@@ -51,4 +50,10 @@ body {
     font-size: 25px;
     float: left;
     letter-spacing: 3px;
+}
+
+.header {
+    /* width: 1440px; */
+    height: 134px;
+    background-color: #707070;
 }
